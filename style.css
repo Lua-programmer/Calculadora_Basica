@@ -1,14 +1,22 @@
- *{
+@import url('//fonts.googleapis.com/css?family=Bungee+Shade');
+
+*{
     margin: 0;
     padding: 0;
 }
 
 footer{
     background-color: black;
+    text-align: center;
 }
 
 h3{
     color: white
+}
+
+h1{
+    padding-top: 80px;
+    font-family: 'Bungee Shade';
 }
 
 .fundo{
@@ -16,12 +24,13 @@ h3{
     height: 100vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .calculadora{
     /*position vai ocupar o espaço dela mesmo */
     position: absolute;  
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
     top: 50%;
     left: 50%;
     /*Va voltar -50% no eixo x e menos 50% no eixo y*/
@@ -31,6 +40,17 @@ h3{
 
 }
 
-button{
-    /* border-radius: 10px; */
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+    margin: 3px;
+}
+
+.botao:hover{
+    background-color: black;
 }
