@@ -49,8 +49,22 @@ h1{
     border: none;
     color: white;
     margin: 3px;
+    border-radius: 50%;
 }
 
 .botao:hover{
-    background-color: black;
+    background-color: rgb(5, 192, 199);
+    border-style: solid;
+    border-color: aqua;
+}
+
+#resultado{
+    width: 215px;
+    height: 40px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    background-color: white;
 }
