@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
-    <script src="../Calculadora_Basica/index.js"></script>
 </head>
 <body>
     <div class="fundo">
@@ -52,5 +51,11 @@
 <footer>
     <h3>github: lua-programmer // insta: luana.melissa</h3>
 </footer>
+<script>
+    function insert(num) {
+    var numero = document.getElementById('resultado').innerHTML;
+    document.getElementById('resultado').innerHTML = numero + num;
+};
+</script>
 </body>
 </html>
