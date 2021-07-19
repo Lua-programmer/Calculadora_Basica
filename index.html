@@ -15,16 +15,16 @@
             <p id="resultado"></p>
             <table>
                 <tr>
-                    <td><button class="botao" onclick="clear()">C</button></td>
-                    <td><button class="botao" onclick="insert('%')">%</button></td>
+                    <td><button class="botao" onclick="clean()">C</button></td>
+                    <td><button class="botao" onclick="back()">cc</button></td>
                     <td><button class="botao" onclick="insert('/')">/</button></td>
-                    <td><button class="botao" onclick="insert('X')">X</button></td>
+                    <td><button class="botao" onclick="insert('x')">X</button></td>
                 </tr>
                 <tr>
                     <td><button class="botao" onclick="insert('7')">7</button></td>
                     <td><button class="botao" onclick="insert('8')">8</button></td>
                     <td><button class="botao" onclick="insert('9')">9</button></td>
-                    <td><button class="botao">-</button></td>
+                    <td><button class="botao" onclick="insert('-')">-</button></td>
                 </tr>
                 <tr>
                     <td><button class="botao" onclick="insert('4')">4</button></td>
@@ -42,20 +42,15 @@
                 <tr>
                     <!-- Expandir o botão de 0 para duas colunas -->
                     <td colspan="2"><button class="botao" style="width: 106px; border-radius: 10px;" onclick="insert('0')">0</button></td> 
-                    <td><button class="botao" onclick="insert('=')">=</button></td>
+                    <td><button class="botao" onclick="calcular()">=</button></td>
                 </tr>
 
             </table>
         </div>
     </div>
-<footer>
-    <h3>github: lua-programmer // insta: luana.melissa</h3>
-</footer>
-<script>
-    function insert(num) {
-    var numero = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = numero + num;
-};
-</script>
+    <footer>
+        <h3>github: lua-programmer // insta: luana.melissa</h3>
+    </footer>
+    <script src="index.js"></script>
 </body>
 </html>
