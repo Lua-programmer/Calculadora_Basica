@@ -22,8 +22,8 @@ h1{
 }
 
 .fundo{
-    /* background-image: linear-gradient(45deg, rgb(25, 33, 102), rgb(6, 184, 216)); */
-    background-image: url('https://s2.best-wallpaper.net/wallpaper/1920x1200/2004/Blonde-anime-girl-blue-eyes-skirt-sea-summer_1920x1200.jpg');
+    background-image: linear-gradient(45deg, rgb(25, 33, 102), rgb(6, 184, 216));
+/*     background-image: url('https://s2.best-wallpaper.net/wallpaper/1920x1200/2004/Blonde-anime-girl-blue-eyes-skirt-sea-summer_1920x1200.jpg'); */
     background-size: cover;
     height: 100vh;
     color: white;
